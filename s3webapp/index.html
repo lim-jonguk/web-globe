@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.137.5/build/three.min.js"></script>
+  
+  <title>WebGL Demo</title>
+</head>
+<body>
+  <div id="dashboard">
+    <div class="panel" id="treaty">
+      <h2>treaty</h2>
+        <div id="treatyCount" class="count">45,536</div>
+      </div>
+    <div class="panel full" id="globalActivity">
+      <div id="container"></div>
+      <canvas id="glcanvas" width="640" height="480"></canvas>
+    </div>
+    
+    <div class="panel" id="News">
+        <h2>News</h2>
+        <div id="NewsCount" class="count">112,046</div>
+    </div>
+    
+  </div>
+  
+  <script type="text/javascript" src="lib/Detector.js"></script>
+  <script type="text/javascript" src="lib/three.min.js"></script>
+  <script type="text/javascript" src="lib/Tween.js"></script>
+  <script type="text/javascript" src="lib/jquery-2.1.0.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="globe.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+</html>
+
+
